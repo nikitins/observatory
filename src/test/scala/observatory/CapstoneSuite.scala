@@ -5,10 +5,10 @@ import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
 class CapstoneSuite
-  extends ExtractionTest
+  extends Visualization2Test
     with VisualizationTest
     with InteractionTest
     with ManipulationTest
-    with Visualization2Test
+    with ExtractionTest
     with Interaction2Test
 
